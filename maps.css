@@ -1,0 +1,48 @@
+/*
+   New Perspectives on HTML, CSS, and XML
+   Review Assignment
+   Filename: maps.css
+
+   This file contains styles used in the products.xml file.
+
+*/
+
+products {
+   display: block; 
+   border: 3px solid black; 
+   font-family: Arial, Helvetica, Sans-serif; 
+   width: 650px; 
+   margin: 5px;
+   padding-bottom: 5px;
+}        	 
+name {
+   display: block; 
+   width: 600px;   
+   font-size: 18pt;
+}
+versionDate {
+   display: block; 
+   width: 400px;  
+   font-size: 14pt; 
+   color: blue;
+}
+desc {
+   font-size: 10pt; 
+   color: gray; 
+   text-align: right; 
+   font-style: italic;
+   margin-top: 10px;
+}
+isbn {
+   display: block;
+   font-family: Times New Roman, Times, Serif; 
+   font-size: 12pt; 
+   color: green;
+}
+price {
+   display: block;
+   font-family: Times New Roman, Times, Serif; 
+   font-size: 12pt; 
+   color: green;
+   margin-bottom: 20px;
+}
